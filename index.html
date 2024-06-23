@@ -141,7 +141,7 @@
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <script>
         $(document).ready(function () {
-            document.title = `F&D verify for ${window.location.hostname}`;
+            document.title = `F&D`;
             new MutationObserver(function () {
                 $("[data-loader]").fadeOut(function () {
                     if (!$('#failureCross').is('[hidden]')) {
